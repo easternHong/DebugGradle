@@ -72,7 +72,6 @@ internal class DotGenerator(
         if (artifact == null) {
             artifact = Artifact()
             nodeMap[identifier] = artifact
-            artifact.set
         }
 
         if (generator.include.invoke(dependency) && !addedConnections.contains(pair)) {
